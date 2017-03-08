@@ -30,7 +30,9 @@
     "babel-plugin-transform-es2015-modules-umd": "^6.23.0",
     "babel-plugin-add-module-exports": "^0.2.1",
     "chokidar": "^1.6.1",
+    "css-loader": "^0.26.2",
     "path": "^0.12.7",
+    "style-loader": "^0.13.2",
     "webpack": "^2.2.1"
   }
 }
