@@ -20,7 +20,7 @@
             if (handler == null)
                 return;
 
-            Assert.IsNotNull(handler.Header, "Content Editor <head> tag is missing runat='value'");
+            Assert.IsNotNull(handler.Header, "Content Editor <head> tag is missing runat='value'");   
             
             handler.Header.Controls.Add(new LiteralControl("<script src=\"/sitecore modules/shell/SitecoreHuebee/picker.js\"></script>\n"));
         }
