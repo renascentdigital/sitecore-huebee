@@ -2,11 +2,17 @@
 
 Sitecore Huebee is a sitecore module that provides a color picker field for data templates and renderings.
 
+## Pre-requisites
+
+* Visual Studio 2017 Community Edition or higher
+* NodeJS
+* Yarn
+
 ## Getting Started
 
 Run:
 ```
-npm install
+yarn install
 ```
 
 ### Starting Watcher
@@ -15,3 +21,25 @@ Run:
 ```
 npm start
 ```
+
+If you don't want to run the watcher and just build out the JavaScript, run:
+
+```
+npm run build:js
+```
+
+### Publish Project
+
+The solution assumes that a blank Sitecore 9 instance is setup under `C:\inetpub\wwwroot\sc900.local\`.  If you need to change this, create a `.user` file in the same location `publishsettings.targets` exists.  Configure by setting the `publishUrl`:
+
+```
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <publishUrl>http://sc900.local</publishUrl>
+        <ExcludeFilesFromDeployment>packages.config, Web.config</ExcludeFilesFromDeployment>
+    </PropertyGroup>
+    <Import Project="./publishsettings.targets.user" Condition="exists('./publishsettings.targets.user')" /> 
+</Project>
+```
+
+Publish will copy what WebPack builds out under the dist folder and includes it to publish to site indicated under `publishsettings.targets`.
