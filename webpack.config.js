@@ -15,20 +15,20 @@ module.exports = {
     resolve: {
         modules: [jsPath, 'node_modules']
     },
+    mode: 'development',
     module: {
         rules: [
             {
                 test: /\.js$/,
                 exclude: [/node_modules/],
                 use: [{
-                    loader: 'babel-loader',
-                    options: { presets: ['es2015'] }
+                    loader: 'babel-loader'
                 }],
-            },
+            },            
             {
                 test: /\.css$/,
                 use: ['style-loader', 'css-loader']
-            },
+            }
         ]
     }
 };
