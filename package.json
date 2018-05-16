@@ -1,17 +1,13 @@
 {
   "name": "sitecore-huebee",
   "version": "1.0.0",
-  "config": {
-    "unicorn": "C:/Sandbox/huebee/Data/Unicorn/",
-    "website": "C:/Sandbox/huebee/Website/"
-  },
+  "config": {},
   "description": "",
   "main": "index.js",
   "scripts": {
     "build": "",
-    "start": "parallelshell \"npm run watch\" \"npm run build:js\"",
+    "start": "parallelshell \"npm run build:js\"",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "node tasks/watch.js",
     "build:js": "webpack -w=true"
   },
   "repository": {
@@ -25,21 +21,16 @@
   },
   "homepage": "https://github.com/edames/sitecore-huebee#readme",
   "dependencies": {
-    "huebee": "2.0.0",
-    "package": "^1.0.1"
+    "huebee": "2.0.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.4",
     "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.6.1",
-    "chokidar": "^1.6.1",
     "css-loader": "^0.26.2",
-    "exit-hook": "^1.1.1",
-    "ncp": "2.0.0",
     "parallelshell": "^3.0.2",
     "path": "^0.12.7",
-    "shelljs": "^0.7.8",
     "style-loader": "^0.13.2",
     "webpack": "^4.2.0",
     "webpack-cli": "^2.0.13"
