@@ -3,7 +3,6 @@ let Huebee = require('huebee/dist/huebee.pkgd.js');
 
 class Picker {
   constructor(container, options) {
-    var self = this;
     this._container = container;
     this._options = options;
     this._huebee = new Huebee(container, options);

@@ -43,3 +43,7 @@ The solution assumes that a blank Sitecore 9 instance is setup under `C:\inetpub
 ```
 
 Publish will copy what WebPack builds out under the dist folder and includes it to publish to site indicated under `publishsettings.targets`.
+
+### Credits
+
+Sitecore Huebee is dependent on the package Huebee by Metafizzy - [https://github.com/metafizzy/huebee](https://github.com/metafizzy/huebee). Version 2.0.0 is licensed under MIT license.

@@ -2,7 +2,7 @@
   "name": "sitecore-huebee",
   "version": "1.0.0",
   "config": {},
-  "description": "",
+  "description": "Color picker wrapper around Huebee",
   "main": "index.js",
   "scripts": {
     "build": "",
@@ -12,21 +12,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/edames/sitecore-huebee.git"
+    "url": "git+https://github.com/renascentdigital/sitecore-huebee.git"
   },
-  "author": "Ehren Dames",
+  "author": "Ehren Dames <ehren.dames@renascent.digital>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/edames/sitecore-huebee/issues"
+    "url": "https://github.com/renascentdigital/sitecore-huebee/issues"
   },
-  "homepage": "https://github.com/edames/sitecore-huebee#readme",
+  "homepage": "https://github.com/renascentdigital/sitecore-huebee#readme",
   "dependencies": {
     "huebee": "2.0.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.4",
-    "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "css-loader": "^0.26.2",
     "parallelshell": "^3.0.2",
