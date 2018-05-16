@@ -1,0 +1,14 @@
+﻿---
+ID: "ed6b86fe-3c9a-4e47-a88b-7fe1dbe00974"
+Parent: "5330fcb8-a99a-4e10-bc62-e54eec247e3c"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/system/Field types/Custom Types/Color Picker/Menu
+DB: core
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180515T201509Z

@@ -1,0 +1,28 @@
+﻿---
+ID: "5330fcb8-a99a-4e10-bc62-e54eec247e3c"
+Parent: "9d0bf65a-d16d-4971-88e7-abb1c145db7e"
+Template: "f8a17d6a-118e-4cd7-b5f5-88ff37a4f237"
+Path: /sitecore/system/Field types/Custom Types/Color Picker
+DB: core
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Imaging/32x32/palette_b.png
+- ID: "6bf5ed07-bc70-42f4-bb77-c017d340950e"
+  Hint: Assembly
+  Value: Sitecore.Huebee
+- ID: "9fe6154a-a16e-4827-99f6-f51533c34ec8"
+  Hint: Class
+  Value: Sitecore.Huebee.Fields.ColorPickerField
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180509T033149Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
