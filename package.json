@@ -8,7 +8,8 @@
     "build": "",
     "start": "parallelshell \"npm run build:js\"",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:js": "webpack -w=true"
+    "build:js": "webpack",
+    "watch": "webpack -w=true"
   },
   "repository": {
     "type": "git",
