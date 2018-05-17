@@ -39,6 +39,8 @@ SOFTWARE.</License>
     <xitems>
       <Entries>
         <x-item>/core/sitecore/system/Field types/Custom Types/Color Picker/{5330FCB8-A99A-4E10-BC62-E54EEC247E3C}/invariant/0</x-item>
+        <x-item>/core/sitecore/system/Field types/Custom Types/Color Picker/Menu/{ED6B86FE-3C9A-4E47-A88B-7FE1DBE00974}/invariant/0</x-item>
+        <x-item>/core/sitecore/system/Field types/Custom Types/Color Picker/Menu/Clear/{5C050E88-9124-4E46-87E3-2C369C85D171}/invariant/0</x-item>
       </Entries>
       <SkipVersions>False</SkipVersions>
       <Converter>
@@ -61,9 +63,9 @@ SOFTWARE.</License>
     </xitems>
     <xfiles>
       <Entries>
-        <x-item>/sitecore modules/Shell/SitecoreHuebee/picker.js</x-item>
         <x-item>/App_Config/Include/Sitecore.Huebee.config</x-item>
         <x-item>/bin/Sitecore.Huebee.dll</x-item>
+        <x-item>/sitecore modules/Shell/SitecoreHuebee/picker.js</x-item>
       </Entries>
       <Converter>
         <FileToEntryConverter>
