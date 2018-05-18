@@ -2,7 +2,7 @@
 
 [![Build status](https://ci.appveyor.com/api/projects/status/3r00y6b4swh3tb7s?svg=true)](https://ci.appveyor.com/project/edames/sitecore-huebee)
 
-Sitecore Huebee is a sitecore module that provides a color picker field for data templates and renderings.
+Sitecore Huebee is a module that provides a color picker field for data templates and renderings.
 
 ## Pre-requisites
 
