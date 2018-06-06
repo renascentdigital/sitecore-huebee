@@ -1,4 +1,6 @@
 ﻿using Sitecore.Data;
+using Sitecore.Huebee.Factories;
+using Sitecore.Huebee.Models;
 using Sitecore.Shell.Applications.ContentEditor;
 using Sitecore.Web.UI.HtmlControls;
 using Sitecore.Web.UI.Sheer;
@@ -9,6 +11,16 @@ namespace Sitecore.Huebee.Fields
 {
     public class ColorPickerField : Sitecore.Shell.Applications.ContentEditor.Text, IContentField
     {
+        private readonly IHuebeeConfiguration _configuration;
+
+        public ColorPickerField() : this(HuebeeConfigurationFactory.Build())
+        { }
+
+        public ColorPickerField(IHuebeeConfiguration configuration)
+        {
+            _configuration = configuration;
+        }
+
         public void SetValue(string value)
         {
             Value = value;
