@@ -13,6 +13,8 @@ namespace Sitecore.Huebee.Models
         string Shades { get; set; }
         string Saturations { get; set; }
         string Notation { get; set; }
+        string SiteName { get; set; }
         IEnumerable<CustomColor> CustomColors { get; }
+        IEnumerable<IHuebeeConfiguration> Sites { get; }
     }
 }
